@@ -68,3 +68,21 @@ Java课程实验
 2. 汽车信息显示
    1. 新建汽车类Car，声明三个成员变量brand（品牌）、color（颜色）、price（价格）和一个成员方法showCarInfo()，成员方法用来显示三个成员变量的具体值；
    2. 再建一个类CarInfo，在main方法中从键盘输入类Car所需要的三个成员变量的具体的数据，比如：“比亚迪”、“红色”、“125000”，并给三个成员变量赋值；之后调用成员方法showCarInfo()显示所输入的汽车信息。
+
+
+
+## 实验五
+
+#### 实验题目
+
+1. 定义一个圆，初始化圆的半径和圆周率，求圆的周长、面积和由圆的半径构成的球的体积。
+   1. 定义一个圆类Circle；
+   2. 在Circle类中定义两个成员变量：半径（radius）和圆周率（pi），不初始化；
+   3. 在Cicle类中定义四个成员方法：初始化圆（setCircle）、计算圆周长（getPerimeter）、计算面积（getArea）、计算体积（getVolume）；
+   4. 创建一个类CircleOperation并在其main()方法中调用setCircle初始化半径和圆周率；
+   5. 输出圆的周长、面积和以初始化半径为基础的圆球体积。
+2. 模拟一个银行帐户，创建类BankAccount，
+   1. 在BankAccount类中定义两个成员变量：帐号 (account) 和存款余额(leftMoney)，不初始化；
+   2. 定义四个成员方法：初始化账户(setBankAccount)、存款 (saveMoney)、取款 (getMoney) 、查询余额 (getLeftMoney)；
+   3. 创建一个类AccountOperation并在其main()方法中调用setBankAccount方法初始化账号为“zhangsan”，余额为5000，并实现以下操作；
+   4. 首先向该账户存入1000元，再取出2000元，打印出余额，程序输入“zhangsan的余额为4000元”。
